@@ -22,6 +22,7 @@ import {
   SiMysql,
   SiPostgresql,
   SiPostman,
+  SiFigma,
 } from "react-icons/si";
 
 import { BiLogoVisualStudio } from "react-icons/bi";
@@ -40,11 +41,11 @@ const timelineData = [
   {
     id: 2,
     company: "Internship",
-    role: "Application Informatics",
+    role: "Informatics Application",
     period: "1 Jul 2024 - 1 Oct 2024",
     location: "DISKOMINFO KARAWANG",
     type: "Full-time",
-    logo: "/company-a-logo.png",
+    logo: "/company-b-logo.png",
     skills: ["Figma", "Ms.Word", "Vs Code"],
   },
 ];
@@ -67,13 +68,14 @@ const skillsData = {
   ],
   "Tools & Technologies": [
     { name: "Git", icon: <SiGit className="w-6 h-6" /> },
-    { name: "MySQL", icon: <SiMysql className="w-6 h-6" /> },
-    { name: "PostgreSQL", icon: <SiPostgresql className="w-6 h-6" /> },
     { name: "Postman", icon: <SiPostman className="w-6 h-6" /> },
+    { name: "Figma", icon: <SiFigma className="w-6 h-6" /> },
     {
       name: "Visual Studio Code",
       icon: <BiLogoVisualStudio className="w-6 h-6" />,
     },
+    { name: "MySQL", icon: <SiMysql className="w-6 h-6" /> },
+    { name: "PostgreSQL", icon: <SiPostgresql className="w-6 h-6" /> },
   ],
 };
 
